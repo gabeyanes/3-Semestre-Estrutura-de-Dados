@@ -14,11 +14,21 @@ public class exercicio2 {
 
         int lista[] = new int[qntd];
 
+        if (qntd >= 1) {
+            System.out.println(numum1);
+        }
+
+        if (qntd >= 2) {
+            System.out.println(numdois);
+        }
+
         for(i = 2; i < lista.length; i++){
             total = numum1 + numdois;
             numum1 = numdois;
             numdois = total;
             System.out.println(total);
         }
+
+        sc.close();
     }
 }
